@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a192cb48-0d69-42d7-8910-a1c61d418fb4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Zw86roIvzGWpr7h8TOFCGtMz5V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="01.04tworzeniebiblioteki" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainApp" />
+      <module name="01.04tworzeniebiblioteki" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a192cb48-0d69-42d7-8910-a1c61d418fb4" name="Default Changelist" comment="" />
+      <created>1585738623227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585738623227</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1585739696073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585739696073" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1585770763843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585770763843" />
+    <state width="1493" height="138" key="GridCell.Tab.0.bottom" timestamp="1585834239376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
+    <state width="1493" height="138" key="GridCell.Tab.0.center" timestamp="1585834239376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
+    <state width="1493" height="138" key="GridCell.Tab.0.left" timestamp="1585834239376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
+    <state width="1493" height="138" key="GridCell.Tab.0.right" timestamp="1585834239376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1585739847467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1585739847467" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1585739663499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585739663499" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585829119805">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585829119805" />
+    <state x="209" y="115" key="new project wizard" timestamp="1585744423293">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="115" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585744423293" />
+    <state x="511" y="42" key="refactoring.ChangeSignatureDialog" timestamp="1585770744637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="42" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585770744637" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585833001022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585833001022" />
+  </component>
+</project>

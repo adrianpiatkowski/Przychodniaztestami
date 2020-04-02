@@ -8,7 +8,7 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 public class PobierzExcel {
-    private static final String FILE_NAME = "src/main/resources/Excel.xlsx";
+    private static final String FILE_NAME = "src/main/resources/Excel4.xlsx";
     public List<Patient> getPatientList() {
         List<Patient> patientList = new ArrayList<>();
         try {
@@ -17,7 +17,7 @@ public class PobierzExcel {
             XSSFSheet datatypeSheet = workbook.getSheetAt(workbook.getNumberOfSheets()-1);
             for (int i = 1 ; i < datatypeSheet.getPhysicalNumberOfRows(); i++) {
                 Row currentRow = datatypeSheet.getRow(i);
-                patientList.add(new Patient(currentRow.getCell(0).toString(), currentRow.getCell(1).toString(), currentRow.getCell(2).toString(), Double.valueOf(currentRow.getCell(3).toString())));
+                patientList.add(new Patient(currentRow.getCell(0).toString(), currentRow.getCell(1).toString(), currentRow.getCell(2).toString(), Double.valueOf(currentRow.getCell(3).toString()),currentRow.getCell(4).toString()));
             }
         } catch (IOException e) {
             e.printStackTrace();

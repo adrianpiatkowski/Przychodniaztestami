@@ -2,9 +2,8 @@ import Wyjątki.TooManyPatientException;
 
 import java.math.BigInteger;
 import java.security.cert.X509Certificate;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
 
 public class MainApp {
 
@@ -98,6 +97,7 @@ public class MainApp {
         String surname;
         String pesel;
         String cenaWizyty;
+        String Koronawirus;
         System.out.println("Podaj imię:");
         name = scanner.next();
         System.out.println("Podaj nazwisko:");
@@ -106,11 +106,14 @@ public class MainApp {
         pesel = scanner.next();
         System.out.println("Podaj kwotę wizyty: ");
         Double price = scanner.nextDouble();
+        System.out.println("Czy ma wirusa: ");
+       Koronawirus = scanner.next();
 
         if (patientService.isRegistered(pesel)){
             throw new TooManyPatientException();
         }
-        Patient pacjent1 = new Patient(name,surname,pesel, price);
+
+        Patient pacjent1 = new Patient(name,surname,pesel, price,Koronawirus);
         patientList.add(pacjent1);
         StwórzExcel.createExcel(patientList);
 
@@ -149,17 +152,43 @@ public class MainApp {
         double koszt = 500;
         double walletPoBadaniu;
         int i = 0;
-        for (Patient patient :
-                patientList) {
+        List<Patient>bezBadania=new ArrayList<>();
+        List<Patient>zBadaniem=new ArrayList<>();
+        for (Patient patient : patientList) {
             if (patient.getWallet() < koszt){
+                bezBadania.add(patient);
                 System.out.println("Pacjent o numerze na liście " + i + " ma za mało pieniędzy niech umiera");
             }
             if (patient.getWallet() > koszt) {
+                zBadaniem.add(patient);
                 walletPoBadaniu = patient.getWallet() - koszt;
                 patient.setWallet(walletPoBadaniu);
                 System.out.println("Pacjentowi o numerze na liście " + i + " badanie zostało wykonane");
             }
             i ++;
+
+        }
+        System.out.println("Lista osob bez badania:\n" + bezBadania);
+        System.out.println("Lista osob z badaniem:\n" + zBadaniem);
+        for (Patient patient:bezBadania
+             ) {patient.setKoronawirus("BRAK BADANIA");
+
+        }
+        for (Patient patient:zBadaniem
+             ) {
+            Random random= new Random();
+            Integer random1 = random.nextInt(2);
+            System.out.println(random1);
+            switch (random1){
+                case 0:
+                    patient.setKoronawirus("MA WIRUSA");
+                    break;
+
+                case 1:
+                    patient.setKoronawirus("NIE MA WIRUSA");
+                    break;
+        }
+
         }
         StwórzExcel.createExcel(patientList);
     }

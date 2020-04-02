@@ -4,9 +4,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Patient> patientList = new ArrayList<>();
-        patientList.add(new Patient("Jakub", "Dąbrowski","99087666341", 350));
-        patientList.add(new Patient("Mikołaj", "Romanowski", "12345678910", 530));
-        patientList.add(new Patient("Jan", "Kowalski", "82345678910", 670));
+        patientList.add(new Patient("Jakub", "Dąbrowski","99087666341", 350,"brak"));
+        patientList.add(new Patient("Mikołaj", "Romanowski", "12345678910", 1530,"brak"));
+        patientList.add(new Patient("Jan", "Kowalski", "82345678910", 1670,"brak"));
         StwórzExcel apachePOIExcelWrite = new StwórzExcel();
         apachePOIExcelWrite.createExcel(patientList);
         Rejestracja patientService = new Rejestracja(patientList);
@@ -15,7 +15,7 @@ public class Main {
         System.out.println(patientService.isRegistered("Asd", "Asd"));
         System.out.println(patientService.isRegistered("Jakub", "Dąbrowski"));
         System.out.println("-------------------------------");
-        Patient patient = new Patient("Test", "Kowalski", "82345678910", 100000);
+        Patient patient = new Patient("Test", "Kowalski", "82345678910", 100000,"brak");
         System.out.println(patientService.isRegistered("Test", "Kowalski"));
         patientList.add(patient);
         apachePOIExcelWrite.createExcel(patientList);

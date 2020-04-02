@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 public class StwórzExcel {
-    private static final String FILE_NAME = "src/main/resources/Excel.xlsx";
+    private static final String FILE_NAME = "src/main/resources/Excel4.xlsx";
     public static void createExcel(List<Patient> patientList) {
         System.out.println("Creating excel");
         XSSFWorkbook workbook = new XSSFWorkbook();
@@ -26,13 +26,15 @@ public class StwórzExcel {
         row.createCell(0).setCellValue("Imię");
         row.createCell(1).setCellValue("Nazwisko");
         row.createCell(2).setCellValue("Pesel");
-        row.createCell(3).setCellValue("Kwota wizyty");
+        row.createCell(3).setCellValue("Wallet");
+        row.createCell(4).setCellValue("Obecnosc wirusa");
         for (Patient patient : patientList) {
             row = sheet.createRow(rowNum++);
             row.createCell(0).setCellValue(patient.getName());
             row.createCell(1).setCellValue(patient.getSurname());
             row.createCell(2).setCellValue(patient.getPesel());
             row.createCell(3).setCellValue(patient.getWallet());
+            row.createCell(4).setCellValue(patient.getKoronawirus());
         }
     }
 }

@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a192cb48-0d69-42d7-8910-a1c61d418fb4" name="Default Changelist" comment="" />
+    <list default="true" id="a192cb48-0d69-42d7-8910-a1c61d418fb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Przychodniaztestami.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PobierzExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PobierzExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StwórzExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StwórzExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PobierzExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PobierzExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rejestracja.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rejestracja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StwórzExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StwórzExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Wyjątki/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Wyjątki/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Wyjątki/MainExceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Wyjątki/MainExceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Wyjątki/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Wyjątki/Person.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +32,19 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -28,26 +57,38 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunManager" selected="Application.MainApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="01.04tworzeniebiblioteki" />
+      <module name="Przychodniaztestami" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="MainApp" />
-      <module name="01.04tworzeniebiblioteki" />
+      <module name="Przychodniaztestami" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainApp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainApp" />
@@ -65,34 +106,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585738623227</updated>
+      <workItem from="1585834585630" duration="135000" />
+      <workItem from="1585834727896" duration="2867000" />
+      <workItem from="1585837608223" duration="1330000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Project_Structure" timestamp="1585739696073">
+    <state x="485" y="71" key="#Main" timestamp="1585837840327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585739696073" />
+    <state x="485" y="71" key="#Main/0.0.1536.824@0.0.1536.824" timestamp="1585837840327" />
+    <state x="485" y="55" key="#MainApp" timestamp="1585834660426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="55" key="#MainApp/0.0.1536.824@0.0.1536.824" timestamp="1585834660426" />
+    <state x="361" y="72" key="#Project_Structure" timestamp="1585834688756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585834688756" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585834653578">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585834653578" />
     <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1585770763843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585770763843" />
-    <state width="1493" height="138" key="GridCell.Tab.0.bottom" timestamp="1585834239376">
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1585838425323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
-    <state width="1493" height="138" key="GridCell.Tab.0.center" timestamp="1585834239376">
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585838425323" />
+    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1585838425323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
-    <state width="1493" height="138" key="GridCell.Tab.0.left" timestamp="1585834239376">
+    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585838425323" />
+    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1585838425323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
-    <state width="1493" height="138" key="GridCell.Tab.0.right" timestamp="1585834239376">
+    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585838425323" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1585838425323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585834239376" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585838425323" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1585739847467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -117,5 +176,8 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585833001022" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Przychodniaztestami$MainApp.ic" NAME="MainApp Coverage Results" MODIFIED="1585834700406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

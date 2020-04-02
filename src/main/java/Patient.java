@@ -8,7 +8,7 @@ public class Patient {
     private String surname;
     private String pesel;
     private double wallet;
-
+    private String Koronawirus;
 
 
 }
